@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn.btn-success{
+    margin: 0 auto;
+}
+
+.t{
+    margin: 10px auto;
+    width: 800px;
+}
+
+.t .id{
+    width: 5%;
+}
+
+.t .title{
+    width: 22.5%;
+}
+
+.t .posted-by{
+    width: 22.5%;
+}
+
+.t .created-at{
+    width: 20%;
+}
+
+.t .actions{
+    width: 30%;
+}
+
+.t > *{
+    display: flex;
+}
+
+.table-header{
+    border-bottom: 1px black solid;
+}
+
+.post{
+    margin: 5px 0;
+}
